@@ -439,7 +439,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 167745921}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &167745921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -962,7 +974,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 315667234}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &315667234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1083,7 +1107,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 341094199}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &341094199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1204,7 +1240,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 360021070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &360021070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,7 +1373,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 379495680}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &379495680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1595,21 +1655,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39699c8fafcb61348bd4242c67cd6e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &498195303
-Transform:
+--- !u!224 &498195303
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498195301}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 553.2781, y: 257.25873, z: -5.096786}
+  m_LocalPosition: {x: 0, y: 0, z: -5.096786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 350.88147, y: 226.18002}
+  m_SizeDelta: {x: 423.7629, y: 421.64}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &522329239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,7 +1756,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 522329242}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &522329242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1763,9 +1839,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 903, y: 25}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -200, y: 25}
   m_SizeDelta: {x: 207.88062, y: 30.532104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523629467
@@ -1897,10 +1973,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 903, y: 115.35}
-  m_SizeDelta: {x: 287.25, y: 126.3937}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -200, y: -144.65}
+  m_SizeDelta: {x: 287.25, y: 126.39371}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587932221
 MonoBehaviour:
@@ -2585,7 +2661,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 713572471}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &713572471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2706,7 +2794,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 723845194}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &723845194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2884,9 +2984,9 @@ RectTransform:
   - {fileID: 633966231}
   m_Father: {fileID: 739466479}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349, y: -215}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -203, y: 45}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743499437
@@ -3187,7 +3287,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 759160801}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &759160801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3308,7 +3420,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 791023475}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &791023475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3697,7 +3821,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 919775737}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &919775737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3768,9 +3904,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 351.5, y: -114}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -200.5, y: -114}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959244681
@@ -3994,9 +4130,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 351.5, y: -78}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -200.5, y: -78}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &990935466
@@ -4262,10 +4398,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -381, y: 218.43}
-  m_SizeDelta: {x: 137.9177, y: 79.7697}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 171, y: -41.570007}
+  m_SizeDelta: {x: 137.9177, y: 79.769714}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1081528117
 MonoBehaviour:
@@ -4923,7 +5059,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1305499179}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1305499179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5262,9 +5410,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 903, y: 201}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -200, y: -59}
   m_SizeDelta: {x: 207.88062, y: 30.532104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332748135
@@ -5663,7 +5811,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1444042489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1444042489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5784,7 +5944,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1506096533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1506096533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5857,9 +6029,9 @@ RectTransform:
   - {fileID: 183430208}
   m_Father: {fileID: 739466479}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349, y: -171}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -203, y: 89}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518675104
@@ -6026,7 +6198,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1554370702}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1554370702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6147,7 +6331,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1574464680}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1574464680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6536,7 +6732,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1646501454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1646501454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6657,7 +6865,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1670356377}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1670356377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6728,9 +6948,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -194, y: -47.971}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 358, y: -47.971}
   m_SizeDelta: {x: 333.0385, y: 51.591003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689751810
@@ -6912,7 +7132,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1726445439}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1726445439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7167,7 +7399,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1775586754}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1775586754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7422,7 +7666,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1839183182}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1839183182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7543,7 +7799,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1867955495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1867955495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8150,9 +8418,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1383431546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 903, y: -14.877899}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -200, y: -14.877899}
   m_SizeDelta: {x: 287.25, y: 62.2237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2029391237
@@ -8334,7 +8602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2030502553}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2030502553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8455,7 +8735,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2086506604}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2086506604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8576,7 +8868,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2138424967}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498195302}
+        m_TargetAssemblyTypeName: GameScript, Assembly-CSharp
+        m_MethodName: OnClickTileButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2138424967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8621,6 +8925,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 705507995}
-  - {fileID: 498195303}
   - {fileID: 739466479}
   - {fileID: 479947785}
+  - {fileID: 498195303}
